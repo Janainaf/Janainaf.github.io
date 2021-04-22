@@ -1,3 +1,5 @@
+// import apikey from "apikey.js";
+
 const apikey = "22620d2d";
 const url = "https://www.omdbapi.com/?apikey=" + apikey;
 const url1 = url + "&i=";
@@ -21,6 +23,7 @@ $(document).ready(function () {
     let movie = $("#movie").val();
     const url = "https://www.omdbapi.com/?apikey=" + apikey;
     let result = [];
+    $(".movies-list").html("");
 
     $.ajax({
       method: "GET",
@@ -29,7 +32,6 @@ $(document).ready(function () {
       success: function (data) {
         console.log(data);
         result = data.Search;
-        $(".movies-list").html("");
 
         for (let i = 0; i < result.length; i++) {
           let movieDetails = `
