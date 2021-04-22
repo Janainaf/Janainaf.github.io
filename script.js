@@ -1,6 +1,5 @@
-// import apikey from "apikey.js";
+import { apikey } from "./apikey.js";
 
-const apikey = "22620d2d";
 const url = "https://www.omdbapi.com/?apikey=" + apikey;
 const url1 = url + "&i=";
 

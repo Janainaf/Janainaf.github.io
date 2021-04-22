@@ -1,2 +1,1 @@
-const apikey = "22620d2d";
-export const apikey;
+export const apikey = "22620d2d";
