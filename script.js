@@ -1,5 +1,5 @@
 const apikey = "22620d2d";
-const url = "http://www.omdbapi.com/?apikey=" + apikey;
+const url = "https://www.omdbapi.com/?apikey=" + apikey;
 const url1 = url + "&i=";
 
 $(document).ready(function () {
@@ -20,7 +20,7 @@ $(document).ready(function () {
     event.preventDefault();
     const apikey = "22620d2d";
     let movie = $("#movie").val();
-    const url = "http://www.omdbapi.com/?apikey=" + apikey;
+    const url = "https://www.omdbapi.com/?apikey=" + apikey;
     let result = [];
 
     $.ajax({
