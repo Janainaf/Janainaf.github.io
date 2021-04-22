@@ -11,14 +11,13 @@ https://janainaf.github.io/index.html
 You can either check the page above, or just clone the repo and open index.html to see the webpage.
 
 ```bash
-git clone voila
+git clone and voila you know the drill 
 ```
 
 ### Warning
 
-Modal is working on repo (locally) on this other repo
-```bash
-https://github.com/Janainaf/moviesearch
-```
+Search bar is working (with a nice bug - it doesnt refresh so new entries go to the end of the list)
+Modal is working fine
+So far no lazy loading but hang in there
 
-and I hope that until the end of the day it will also work on production and this repo
+
