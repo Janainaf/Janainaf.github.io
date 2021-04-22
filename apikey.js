@@ -1,1 +1,1 @@
-export const apikey = secret.APIKEY;
+export const apikey = "API_KEY";
