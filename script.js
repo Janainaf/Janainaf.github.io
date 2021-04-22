@@ -18,7 +18,6 @@ $(document).ready(function () {
 
   $("#movieForm").submit(function (event) {
     event.preventDefault();
-    const apikey = "22620d2d";
     let movie = $("#movie").val();
     const url = "https://www.omdbapi.com/?apikey=" + apikey;
     let result = [];
@@ -30,6 +29,8 @@ $(document).ready(function () {
       success: function (data) {
         console.log(data);
         result = data.Search;
+        $(".movies-list").html("");
+
         for (let i = 0; i < result.length; i++) {
           let movieDetails = `
           <div class="movie-card">
