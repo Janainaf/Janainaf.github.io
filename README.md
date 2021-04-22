@@ -3,7 +3,7 @@
 Hello fellow,
 here is the code and you can find the github page here
 ```bash
-https://janainaf.github.io/index.html
+https://janainaf.github.io/
 ```
 
 ## Installation
